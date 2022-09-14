@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(225, 252, 252);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+form {
+  background-color: rgb(251, 253, 254);
+  width: 40rem;
+  margin: auto;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  font-size: 0.9rem;
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  padding: 0.5rem 0 0.5rem;
+  font-size: 1.2rem;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  color: rgb(66, 76, 97);
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid rgb(239, 242, 245);
+  box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+  border-color: rgb(116, 119, 190);
+  background-color: rgb(193, 200, 253);
+  color: rgb(67, 70, 155);
+}
+
+textarea {
+  resize: none;
+  display: block;
+}
+
+.personal-info select {
+  font: inherit;
+  cursor: pointer;
+}
+
+.personal-info select:focus {
+  background-color: rgb(206, 210, 238);
+  color: black;
+}
+
+.reply,
+#terms {
+  display: flex;
+}
+
+.reply input,
+#terms input {
+  width: auto;
+  margin: 0 0.5rem 0;
+  cursor: pointer;
+}
+
+.reply label {
+  margin: 0;
+}
+
+#buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  border-radius: 4px;
+  font: inherit;
+  border: 1px solid rgb(51, 67, 100);
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  margin: 0.2rem;
+}
+
+#clear-button button {
+  background-color: transparent;
+  border-color: rgb(229, 224, 224);
+}
+
+#submit-button button {
+  background-color: rgb(67, 70, 155);
+  color: white;
+}
+
+#clear-button button:hover {
+  background-color: rgb(67, 70, 155);
+  color: white;
+}
+
+#submit-button button:hover {
+  background-color: rgb(81, 83, 155);
+}
